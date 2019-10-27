@@ -15,17 +15,14 @@ public class UlmartServices {
 
     public static void sortByPriceDesc(@NotNull List<Product> productList) {
         productList.sort(((o1, o2) -> -(o1.getPrice() - o2.getPrice())));
-        return;
     }
 
     public static void sortByRating(@NotNull List<Product> productList) {
         productList.sort((o1, o2) -> -(o1.getRating() - o2.getRating()));
-        return;
     }
 
     public static void sortByName(@NotNull List<Product> productList) {
         productList.sort((o1, o2) -> o1.getName().compareToIgnoreCase(o2.getName()));
-        return;
     }
 
     @NotNull

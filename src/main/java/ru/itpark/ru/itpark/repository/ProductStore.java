@@ -1,10 +1,7 @@
 package ru.itpark.ru.itpark.repository;
 
 import org.jetbrains.annotations.NotNull;
-import ru.itpark.model.Product;
-
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 public class ProductStore {
@@ -25,11 +22,11 @@ public class ProductStore {
     }
 
     public boolean remove(int id) {
-        return productList.removeIf(o -> o.getId() == id );
+        return productList.removeIf(o -> o.getId() == id);
     }
 
     public List getProductList() {
         return productList;
     }
 
- }
+}

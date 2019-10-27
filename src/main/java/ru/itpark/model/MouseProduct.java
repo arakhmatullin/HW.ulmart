@@ -1,8 +1,7 @@
 package ru.itpark.model;
 
-import java.util.SplittableRandom;
 
-public class MouseProduct extends Product{
+public class MouseProduct extends Product {
     private String color;
     private String connectionType;
 

@@ -16,7 +16,6 @@ public class UlmartService {
     }
 
     public boolean addProductsFromList(@NotNull List<Product> productList) {
-        boolean result = false;
         return productStore.addAll(productList);
     }
 

@@ -8,5 +8,11 @@ public class ChargerProduct extends Product {
         this.chargerType = chargerType;
     }
 
+    public String getChargerType() {
+        return chargerType;
+    }
 
+    public void setChargerType(String chargerType) {
+        this.chargerType = chargerType;
+    }
 }

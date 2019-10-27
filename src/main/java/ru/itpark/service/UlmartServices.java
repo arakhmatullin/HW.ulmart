@@ -10,11 +10,10 @@ public class UlmartServices {
 
     public static void sortByPriceAsc(@NotNull List<Product> productList) {
         productList.sort((o1, o2) -> o1.getPrice() - o2.getPrice());
-        return;
     }
 
     public static void sortByPriceDesc(@NotNull List<Product> productList) {
-        productList.sort(((o1, o2) -> -(o1.getPrice() - o2.getPrice())));
+        productList.sort((o1, o2) -> -(o1.getPrice() - o2.getPrice()));
     }
 
     public static void sortByRating(@NotNull List<Product> productList) {
